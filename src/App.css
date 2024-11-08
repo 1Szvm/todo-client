@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.app{
+    background: #5D4157;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 100vh;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: aliceblue;
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;
+}
+.header{
+    text-align: center;
+    padding: 5px;
+}
+.addtodos{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
