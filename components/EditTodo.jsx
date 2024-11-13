@@ -14,7 +14,6 @@ export const EditTodo = ({open,setOpen,task,id,}) => {
     const handleClose = () => {
       setOpen(false);
     };
-
     const handleUpdate=async()=>{
         await updateTask(id,{task:updatedTask})
         queryClient.invalidateQueries("todos")

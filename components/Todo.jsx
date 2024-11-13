@@ -9,7 +9,7 @@ import { delTodo, updateCompleted } from './utils';
 
 
 export const Todo = ({id,task,completed}) => {
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(false);
     const queryClient=useQueryClient()
 
     const handleDelet=async()=>{
